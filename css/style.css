@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Img/1.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 35px;
+    margin-right: 10px;
+
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.2s ease-in-out;
+
+}
+
+ul li a:hover{
+    background-color: white;
+    color: #000;
+
+}
+
+ul li.active a{
+    background-color: white;
+    color: #000;
+
+}
+
+ .logo img{
+    float: left;
+    width: 176px;
+    height: auto;
+
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    font-family: 'poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #fff;
+    margin: 10px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    transition: 0.6s all;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #000;
+}
